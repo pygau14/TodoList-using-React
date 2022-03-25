@@ -1,0 +1,72 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: darkblue;
+}
+.textarea {
+  border: 2px black dashed;
+  width: 300px;
+  height: 40px;
+}
+.todo-app {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 1000px;
+}
+.todo-input {
+  background-color: black;
+  color: white;
+  border: 1px solid blueviolet;
+  width: 240px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.todo-button {
+  background-color: blueviolet;
+  color: white;
+  width: 80px;
+  height: 40px;
+  margin: 15px;
+}
+
+.list-rect {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.todos-rect {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid chartreuse;
+  width: 400px;
+  height: 40px;
+  text-align: start;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.edit-task {
+  background-color: blueviolet;
+  border: 1px white solid;
+  color: white;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.delete-task {
+  background-color: blueviolet;
+  border: 1px white solid;
+  color: white;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.editInput {
+  width: 200px;
+  height: 25px;
+  font-size: 18px;
+}
